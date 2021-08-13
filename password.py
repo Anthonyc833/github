@@ -2,7 +2,7 @@ import string
 import random
 from random import *
 characters = string.ascii_letters + string.punctuation  + string.digits
-plenght = (int("how long is the password"))
+plenght = input("how long is the password")
 if plenght == 0:
   print("you cant print that")
 else if plenght < 50:
