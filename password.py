@@ -1,4 +1,5 @@
 import string
+import random
 from random import *
 characters = string.ascii_letters + string.punctuation  + string.digits
 plenght = (int("how long is the password"))
